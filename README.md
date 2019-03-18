@@ -7,8 +7,7 @@ Due to the application containing both a server and a client,
 they are running on different ports. But by using a proxy on the 
 client side this solved the problem. 
 
-To run the application the API must be setup, this is solved by 
-running 'docker-compose up --build'. The API will then run on port 
+To run the application the API must first be setup. When it is running the API will run on port 
 3000. To start the client you must open a new terminal window, 
 go into the client repository and run 'node start'.
 This will start the client on port 5000, by using a proxy the API 
